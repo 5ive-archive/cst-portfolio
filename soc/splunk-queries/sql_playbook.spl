@@ -127,4 +127,17 @@ index=sysmon EventID=11
 
 # Top 10 Alert Sources (last 24h)
 index=security earliest=-24h
-| stats
+| stats count by src_ip
+| sort -count
+| head 10
+
+# Alert Trend — events per hour
+index=security earliest=-7d
+| bucket _time span=1h
+| stats count by _time
+| timechart span=1h count
+
+# MITRE ATT&CK Technique Distribution
+index=security
+| stats count by mitre_technique
+| sort -count
