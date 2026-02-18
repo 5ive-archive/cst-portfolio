@@ -94,7 +94,7 @@ Python + Nmap integration that auto-discovers hosts on a subnet, fingerprints OS
 
 ## 🏠 Home Lab Setup
 
-Running a virtualized home lab using VirtualBox:
+Running a virtualized home lab using Proxmox VE:
 - **Kali Linux** — attack/pentest VM
 - **Ubuntu Server 22.04** — target & monitoring server  
 - **Windows Server 2019** — Active Directory practice
