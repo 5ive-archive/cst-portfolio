@@ -423,9 +423,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-```
-
-That's all 3 new files done! Now go back and update the README table to include:
-```
-| [`networking/`](./networking) | 🌐 Networking | Subnet calculator, firewall rule reference |
-| [`data-analysis/`](./data-analysis) | 📈 Analysis | Multi-source log correlation engine |
