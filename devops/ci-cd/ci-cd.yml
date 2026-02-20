@@ -265,5 +265,3 @@ jobs:
           echo "| SAST | ${{ needs.sast.result }} |" >> $GITHUB_STEP_SUMMARY
           echo "| Docker | ${{ needs.docker.result }} |" >> $GITHUB_STEP_SUMMARY
 ```
-
-Let me know when it's in!
