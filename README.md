@@ -74,8 +74,8 @@ Each writeup: recon → exploit → escalate → post-exploit → **detection & 
 
 ```
                     ┌─────────────────────┐
-                    │   pfSense 2.7.2      │
-                    │   192.168.1.1        │
+                    │   pfSense 2.7.2     │
+                    │   192.168.1.1       │
                     └──────────┬──────────┘
                                │ SPAN → Security Onion
        ┌───────────┬───────────┼───────────┬───────────┐
